@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Weather App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./app.css">
+</head>
+
+<body>
+  <div class="container text-center">
+    <button type='button' class='btn btn-primary'>
+     °C / °F
+    </button>
+
+    <h1 id='cityName'>Loading...</h1>
+    <h3><span id="temp"></span><span id='sign'>°C</span></h3>
+    <img id='wIcon' src="" alt="weather image">
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
